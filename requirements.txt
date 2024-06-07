@@ -1,0 +1,12 @@
+scikit-learn==1.5.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.0
+gradio==4.36.0
+Pillow==10.3.0
+scipy==1.13.1
+librosa==0.10.2.post1
+sounddevice==0.4.7
+netCDF4==1.6.5
+joblib==1.4.2
+openpyxl==3.1.3
