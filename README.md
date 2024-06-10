@@ -24,14 +24,14 @@ pip install -r requirements.txt
 
 
 ## Key Concepts
-- Interaural time difference (ITD) - the sound propagation time between the two ears. ITD is significant at frequencies lower than 1500Hz, hence before its calculation, the signal needs to be passed through a low-pass filter.
+- Interaural time difference (ITD) - the sound propagation time between two ears. ITD is significant at frequencies lower than 1500Hz, hence before its calculation, the signal needs to be passed through a low-pass filter.
 - Interaural level difference (ILD) - sound level difference between two ears. ILD is more relevant for frequencies above 1500Hz, therefore before ILD calculation, the signal should be passed through a high-pass filter.
 - Azimuth - the angle of the sound source relative to the listener's position.
 - Head-related transfer function (HRTF) - function that describes how sound waves are filtered by the head, ears, and torso before reaching the ear drums. It is stored in *.sofa file.
 
 
 ## Dependencies of ITD and ILD on azimuth
-The graphs below show the dependence of the interaural time difference (ITD) and the interaural sound level difference (ILD) on the azimuth angle.
+The graphs below show the dependence of the interaural time difference (ITD) and the interaural level difference (ILD) on the azimuth angle.
 
 ![ITD and ILD vs azimuth](https://github.com/Wojtek321/Sound-source-localization/blob/master/assets/plots/ITD_ILD_visualization.png?raw=true)
 
@@ -47,7 +47,7 @@ Three regression models were trained using the data:
 - Random Forest
 - K Neighbors
 
-These were saved in the `models` directory.
+They are stored in the `models` directory.
 
 
 ## License
